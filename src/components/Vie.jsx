@@ -9,6 +9,7 @@ export function Vie() {
             <div className="corpus">
                 <h1 className="title2">Portfolio de François Ribere</h1>
                 <h2 className="title">Bienvenue !!</h2>
+                <h2 className="warning">! ACTUELLEMENT EN TRAVAUX ! <br /> LE TEXTE DE CETTE PAGE SERA MODIFIE DE MÊME QUE LES IMAGES QUI SERONT RAJOUTEES</h2>
                 <p>Titulaire d'un diplôme de concepteur-développeur d'applications, et également issu d'une formation littéraire en histoire moderne et contemporaine, je possède de nombreuses compétences dans de nombreux domaines, comme je vous laisse le plaisir de le découvrir dans le site ci-dessous</p>
                 <p>Vous y trouverez aussi de nombreuses informations sur moi, sur mes centres d'intérêts divers et variés et même quelques jeux si vous vous ennuyez !</p>
                 <p>Bref, un portfolio à mon image, que j'espère vous prendrez un grand plaisir à parcourir !!</p>
@@ -38,7 +39,8 @@ export function Vie() {
                     ma curiosité. 
                 </p>
                 <h3 className="title">Titulaire d'un master métiers de l'enseignement, de l'éducation et de la formatio</h3>
-                <p>Obtenu le 11 juin 2022 à l'Institut Supérieur de Préparation à l'Enseignement Catholique (ISFEC), ce master m'a permis de découvrir la grande pluralité du travail en groupe, et du travail magistratif devant un public. </p>
+                <p>Obtenu le 11 juin 2022 à l'Institut Supérieur de Préparation à l'Enseignement Catholique (ISFEC), ce master m'a permis d'apprécier la grande pluralité du travail en équipe, et du travail magistratif devant un public
+                    , en l'occurence des élèves. </p>
                 <p>Si ce diplôme m'aida à préparer le diplôme du CAPES, il me permit également d'en apprendre beaucoup sur la pluralité des profils afvec lesquels je pouvais être amené à travailler.
                     Par exemple, mes collègues enseignants n'avaient pas tous la même façon de fontionner, ni les mêmes conseils. Et lorsque je me trouvais en situation de cours magistral face à des élèves, cela était encore différent,
                     sans compter qu'il fallait aussi se rappeler que chaque élève est unique !
@@ -49,9 +51,12 @@ export function Vie() {
                 <p>Lorem ipsum</p>
                 <h2 className="title">Mes centres d'intérêt</h2>
                 <p>Si mes formations en informatique et en histoire m'ont donne un grand goût pour la recherche et la créativité, j'ai également d'autre passions qui mettent en avant mon appétence pour ces deux domaines ! </p>
-                <p>Grand amateur d'art, je dessine depuis l'âge de trois ans, comme vous pouvez le voir sur ce magnifique dessin :</p>
-                <p>Je sais ce que vous allez dire : il y a encore à peaufiner, puisque les proportinons fémur-épaule ne sont pas respectées.</p>
-                <p>De même que ce dessin de Cruella D'enfer, datant de 2002 : tout le monde, dans le film, a remarqué qu'il n'y avait pas de vitres arrières, sur sa voiture</p>
+                <p>Grand amateur d'art, je dessine depuis l'âge de trois ans, comme vous pouvez le voir sur ce magnifique dessin :
+                    <br />
+                    C'était la voiture de mon père, qui était, comme vous le devinerez, beaucoup plus grande que moi.
+                </p>
+                <p>Et voici un dessin de Peter Pan et du capitaine Crochet <br /> Là, je sais ce que vous allez dire : il y a encore à peaufiner, puisque les proportinons fémur-épaule ne sont pas respectées.</p>
+                <p>De même que ce dessin de Cruella D'enfer, datant de 2002 : tout le monde, dans le film, a remarqué que sa voiture n'avait pas cette couleur</p>
                 <p>Mais depuis j'ai beaucoup évolué : dix ans plus tard, je dessinais comme ça :</p>
                 <p>Puis les années ont passé. J'avais créé, alors que j'avais dix ans, mes propres héros de bandes-dessinées, aux aventures dont les scénarios étaient des pots-pourris éhontés d'autres bandes dessinées autrement plus célèvres.
                     Du reste j'ai continué à dessiner, évoluant vers un registre plus réaliste, ou parfois plus cartoon, entre le manga et le roman graphique, m'essayant aux dessins d'architecture 
@@ -62,7 +67,9 @@ export function Vie() {
                 </p>
                 <p>J'aimais créer.
                 </p>
-                <p>Cet esprit créatif, corrélé à ma veine artistique, c'était comme un coup de pouce de la nature, qui me menait vers un horizon créatif, que j'ai eu le plaisir de retrouver lorsdque j'ai commencé à coder pour développer des sites web et web-mobiles.</p>
+                <p>Cet esprit créatif, corrélé à ma veine artistique, c'était comme un coup de pouce de la nature, qui me menait vers un horizon
+                     que l'imagination semblait rendre le plus large possible. J'ai eu le plaisir d'éprouver à nouveau ce sentiment lorsque j'ai commencé à coder 
+                     pour développer des sites web et web-mobiles. Aujourd'hui, je continue à explorer cette voie, en prenant, je l'espère, le chemin de nouvelles aventures</p>
             </div> 
     </div>
     );

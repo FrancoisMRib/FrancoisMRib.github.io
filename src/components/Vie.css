@@ -9,9 +9,15 @@
 }
 
 .title2 {
-    text-align: right;
+    text-align: center;
 }
 
 .corpus {
     padding: 5%;
+}
+
+.warning {
+    color: orange;
+    text-align: center;
+    background-color: black;
 }
