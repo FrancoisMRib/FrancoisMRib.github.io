@@ -1,0 +1,17 @@
+.back {
+    background-color:rgb(42, 42, 165) ;
+    color: rgb(218, 218, 218);
+    text-align: left;
+}
+
+.title {
+    text-align: center;
+}
+
+.title2 {
+    text-align: right;
+}
+
+.corpus {
+    padding: 5%;
+}
