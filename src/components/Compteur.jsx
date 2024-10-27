@@ -22,14 +22,15 @@ export function Compteur() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          Le compte est de {count}
         </button>
         {/* <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p> */}
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more about the software used as a base for this projet
+        {/* Click on the Vite and React logos to learn more about the software used as a base for this projet */}
+        Cliquez sur les logos de Vite et de React en découvrez-en plus sur les logiciels utilisés comme base pour ce projet
       </p>
     </>
   )

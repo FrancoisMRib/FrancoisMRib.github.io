@@ -17,3 +17,13 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 2%;
 }
+
+.icon {
+    width: auto;
+    height: 150px;
+}
+
+.logical {
+    align-items: row;
+    padding-top: 3%;
+}

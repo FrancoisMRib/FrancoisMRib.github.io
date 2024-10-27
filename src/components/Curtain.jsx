@@ -4,11 +4,14 @@ import { motion } from 'framer-motion';
 //import Gauche from '';
 import Gauche from '/src/assets/Grand_rideau_texte_portfolio2.jpg';
 import Droit from '/src/assets/Petit_rideau_portfolio-removebg-preview.png';
+import Funnyface from '/src/assets/Visage portfolio.jpg';
+import Seriousface from '/src/assets/Photo CV round.jpg';
 import './Curtain.css';
 
 export function Curtain() {
   const [position, setPosition] = useState(0);
   const [isOpen, setIsOpen] = useState(false); // Pour contrôler l'ouverture du rideau
+  const [hovered, setHovered] = useState(false); // État pour gérer le survol
 
   const handleDrag = (event, info) => {
     // Limiter le rideau pour ne pas le laisser dépasser les bornes
@@ -32,9 +35,20 @@ export function Curtain() {
     <div style={{ overflow: 'hidden', position: 'relative', height: '100vh', width: '100vw' }}>
       {/* Page d'accueil */}
       <div style={{ position: 'absolute', top: 0, left: 0, right: 150, bottom: 0 }}>
-        <h1>Bonjour, je m'appelle François Ribere</h1>
-        <h2>Titulaire d'un diplôme de niveau 6 de Concepteur-Développeur d'Applications</h2>
-        <h2>En recherche d'une alternance dans le domaine de la transformation digitale</h2>
+        <div className='logical'>
+          {/* Version statique de l'image */}
+          {/* <img src={Funnyface} alt="" className='icon'/> */}
+          <img
+            src={hovered ? Funnyface : Seriousface}
+            alt=""
+            className='icon'
+            onMouseEnter={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
+          />
+          <h2>Bonjour, je m'appelle François Ribere</h2>
+        </div>
+        <h3>Titulaire d'un diplôme de niveau 6 de Concepteur-Développeur d'Applications</h3>
+        <h4>En recherche d'une alternance dans le domaine de la transformation digitale</h4>
         <p>Cliquez sur l'une des catégories ci-dessous pour en savoir plus sur moi</p>
         <div className="">
             {/* <button className='categ'>Mes compétences</button>
