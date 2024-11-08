@@ -45,12 +45,12 @@ export function Curtain() {
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
           />
-          <h2>Bonjour, je m'appelle François Ribere</h2>
+          <h2 className='present'>Bonjour, je m'appelle François Ribere</h2>
         </div>
-        <h3>Titulaire d'un diplôme de niveau 6 de Concepteur-Développeur d'Applications</h3>
-        <h4>En recherche d'une alternance dans le domaine de la transformation digitale</h4>
-        <p>Cliquez sur l'une des catégories ci-dessous pour en savoir plus sur moi</p>
-        <div className="">
+        <h3 className='present2'>Titulaire d'un diplôme de niveau 6 de Concepteur-Développeur d'Applications</h3>
+        <h4 className='present3'>En recherche d'une alternance dans le domaine de la transformation digitale</h4>
+        <p className='present3'>Cliquez sur l'une des catégories ci-dessous pour en savoir plus sur moi</p>
+        <div className="present3">
             {/* <button className='categ'>Mes compétences</button>
             <button className='categ'>Mes formations</button>
             <button className='categ'>Mes projets</button>

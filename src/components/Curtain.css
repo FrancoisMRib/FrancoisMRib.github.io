@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 35px;
+    height: 35%;
     width: 100%;
 }
 
@@ -16,6 +16,7 @@
     font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 2%;
+    text-align: center;
 }
 
 .icon {
@@ -26,4 +27,16 @@
 .logical {
     align-items: row;
     padding-top: 3%;
+}
+
+.present {
+    font-size: 100%;
+}
+
+.present2 {
+    font-size: 90%;
+}
+
+.present3 {
+    font-size: 80%;
 }
