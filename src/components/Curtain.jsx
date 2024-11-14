@@ -33,7 +33,22 @@ export function Curtain() {
 
   return (
     <div style={{ overflow: 'hidden', position: 'relative', height: '100vh', width: '100vw' }}>
+    {/* Bouton d'accès rapide à l'accueil */}
+    <div
+      style={{
+        position: 'absolute',
+        bottom: '20px',
+        left: '50%',
+        transform: 'translateX(-50%)',
+        zIndex: 20, // Niveau supérieur pour qu'il apparaisse devant les rideaux
+      }}
+    >
+      <div className='categy'>
+        <Link to="/curtain" className="categy">Accéder directement à l'accueil</Link>
+      </div>
+    </div>
       {/* Page d'accueil */}
+
       <div style={{ position: 'absolute', top: 0, left: 0, right: 150, bottom: 0 }}>
         <div className='logical'>
           {/* Version statique de l'image */}
@@ -121,6 +136,7 @@ export function Curtain() {
           {/* Ici, on peut styliser le "bout" que l'utilisateur tirera */}
         {/* </div> */}
       </motion.div>
+
     </div>
   );
 }
