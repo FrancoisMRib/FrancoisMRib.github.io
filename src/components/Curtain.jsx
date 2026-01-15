@@ -62,8 +62,9 @@ export function Curtain() {
           />
           <h2 className='present'>Bonjour, je m'appelle François Ribere</h2>
         </div>
+        <h3 className='present2'>Chargé d'analyse data chez AUMOVIO France</h3>
         <h3 className='present2'>Titulaire d'un diplôme de niveau 6 de Concepteur-Développeur d'Applications</h3>
-        <h4 className='present3'>En recherche d'une alternance dans le domaine de la transformation digitale</h4>
+        {/* <h4 className='present3'>En recherche d'une alternance dans le domaine de la transformation digitale</h4> */}
         <p className='present3'>Cliquez sur l'une des catégories ci-dessous pour en savoir plus sur moi</p>
         <div className="present3">
             {/* <button className='categ'>Mes compétences</button>
