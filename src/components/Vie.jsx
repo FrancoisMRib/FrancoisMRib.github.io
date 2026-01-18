@@ -15,17 +15,20 @@ export function Vie() {
                 <p>Bref, un portfolio à mon image, que j'espère vous prendrez un grand plaisir à parcourir !!</p>
                 <h2 className="title">Mes formations</h2>
                 <h3 className="title">Concepteur-développeur d'applications</h3>
-                <p>Ma plus récente formation, celle de concepteur-développeur d'applications m'a permis de développer mes compétences dans deux domaines bien précis :</p>
+                <p>Ma plus récente formation, celle de concepteur-développeur d'applications m'a permis de développer mes compétences dans deux domaines bien précis : le développement web et la gestion de projet.</p>
                 <h4 className="title">Développement Web</h4>
-                <p>J'ai appris à utiliser de nombreux langages :</p>
-                <p>JavaScript</p>
-                <p>Le langage que j'ai le plus utilisé lors de mes études</p>
-                <p>PHP</p>
-                <p>Symfony</p>
-                <p>Java</p>
-                <h5 className="title">FRONT-END</h5>
-                <h5>BACK-END</h5>
+                <p>Au cours de cette formation, j’ai appris à utiliser plusieurs langages et technologies, aussi bien côté front-end que back-end.
+                    J'ai appris à utiliser de nombreux langages :</p>
+                <p>JavaScript, , le langage que j’ai le plus utilisé durant mes études, notamment pour le développement d’interfaces dynamiques et interactives.</p>
+                {/* <p>Le langage que j'ai le plus utilisé lors de mes études</p> */}
+                <p>PHP, pour le développement côté serveur et la gestion de bases de données.</p>
+                <p>Symfony, framework PHP que j’ai utilisé pour concevoir des applications web structurées, sécurisées et maintenables.</p>
+                <p>Java, pour comprendre les principes de la programmation orientée objet et développer des applications robustes.</p>
+                {/* <h5 className="title">FRONT-END</h5>
+                <h5>BACK-END</h5> */}
+                <p>Ces compétences m’ont permis de concevoir des applications complètes, de l’interface utilisateur à la logique métier, en respectant les bonnes pratiques du développement web.</p>
                 <h4>Gestion de projet</h4>
+                <p>En parallèle des compétences techniques, cette formation m’a également permis d’acquérir des bases solides en gestion de projet : analyse des besoins, rédaction de spécifications, organisation du travail, respect des délais et collaboration en équipe, notamment à travers des projets concrets.</p>
                 <h4>Compléments</h4>
                 <p>J'ai cependant développé d'autres compétences, en marge de ma formation ou lors de son déroulé, qui sont un peu différentes :</p>
                 <p>Python</p>
