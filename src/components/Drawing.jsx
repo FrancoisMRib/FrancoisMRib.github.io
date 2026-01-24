@@ -4,14 +4,14 @@ import viteLogo from '/vite.svg'
 import './Compteur.css'
 import { Header } from './Header'
 
-export function Compteur() {
+export function Dessins() {
   const [count, setCount] = useState(0)
 
   return (
     <>
     <div>
       <Header/>
-        <h2>Bonjour ! Voici la page qui vous permettra de découvrir mes différents projets :</h2>
+        <h2>Bonjour ! Voici la page qui vous permettra de découvrir mes dessins :</h2>
     </div>
       {/* <div>
         

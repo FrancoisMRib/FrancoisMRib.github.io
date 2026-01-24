@@ -73,7 +73,7 @@ export function Curtain() {
             <button className='categ'>Mes projets</button>
             <button className='categ'>Ma vie</button> */}
             <Link to={`/curtain`} className="categ">Accueil</Link>
-            <Link to={`/compteur`} className="categ">Compteur</Link>
+            <Link to={`/compteur`} className="categ">Mes dessins</Link>
             <Link to={`/compteur`} className="categ">Mes projets</Link>
             <Link to={`/life`} className="categ">Ma vie</Link>
 
