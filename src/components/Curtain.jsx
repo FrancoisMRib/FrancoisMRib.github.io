@@ -44,7 +44,7 @@ export function Curtain() {
       }}
     >
       <div className='categy'>
-        <Link to="/curtain" className="categy">Accéder directement à l'accueil</Link>
+        <Link to="/curtain" className="categy">Accéder au CV</Link>
       </div>
     </div>
       {/* Page d'accueil */}
