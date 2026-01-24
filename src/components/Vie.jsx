@@ -9,7 +9,7 @@ export function Vie() {
             <div className="corpus">
                 <h1 className="title2">Portfolio de François Ribere</h1>
                 <h2 className="title">Bienvenue !!</h2>
-                <h2 className="warning">! ACTUELLEMENT EN TRAVAUX ! <br /> LE TEXTE DE CETTE PAGE SERA MODIFIE DE MÊME QUE LES IMAGES QUI SERONT RAJOUTEES</h2>
+                {/* <h2 className="warning">! ACTUELLEMENT EN TRAVAUX ! <br /> LE TEXTE DE CETTE PAGE SERA MODIFIE DE MÊME QUE LES IMAGES QUI SERONT RAJOUTEES</h2> */}
                 <p>Titulaire d'un diplôme de concepteur-développeur d'applications, et également issu d'une formation littéraire en histoire moderne et contemporaine, je possède de nombreuses compétences dans de nombreux domaines, comme je vous laisse le plaisir de le découvrir dans le site ci-dessous</p>
                 <p>Vous y trouverez aussi de nombreuses informations sur moi, sur mes centres d'intérêts divers et variés et même quelques jeux si vous vous ennuyez !</p>
                 <p>Bref, un portfolio à mon image, que j'espère vous prendrez un grand plaisir à parcourir !!</p>
@@ -27,9 +27,9 @@ export function Vie() {
                 {/* <h5 className="title">FRONT-END</h5>
                 <h5>BACK-END</h5> */}
                 <p>Ces compétences m’ont permis de concevoir des applications complètes, de l’interface utilisateur à la logique métier, en respectant les bonnes pratiques du développement web.</p>
-                <h4>Gestion de projet</h4>
+                <h4 className="title">Gestion de projet</h4>
                 <p>En parallèle des compétences techniques, cette formation m’a également permis d’acquérir des bases solides en gestion de projet : analyse des besoins, rédaction de spécifications, organisation du travail, respect des délais et collaboration en équipe, notamment à travers des projets concrets.</p>
-                <h4>Compléments</h4>
+                <h4 className="title">Compléments</h4>
                 <p>J'ai cependant développé d'autres compétences, en marge de ma formation ou lors de son déroulé, qui sont un peu différentes :</p>
                 <p>Python, langage m’a également permis d’aborder des notions telles que la manipulation de données et la logique algorithmique</p>
                 <p>Je dispose également de connaissances en réseau informatique, incluant les notions fondamentales telles que les protocoles, l’adressage IP, la configuration de base d’un réseau et la compréhension de son fonctionnement global.</p>
@@ -52,7 +52,7 @@ export function Vie() {
                     </p>
                 </p>
                 {/* <p>Lorem ipsum</p> */}
-                <h2 className="title">Mes centres d'intérêt</h2>
+                <h2 className="title">Mes centres d'intérêts</h2>
                 <p>Si mes formations en informatique et en histoire m'ont donne un grand goût pour la recherche et la créativité, j'ai également d'autre passions qui mettent en avant mon appétence pour ces deux domaines ! </p>
                 {/* <p>Grand amateur d'art, je dessine depuis l'âge de trois ans, comme vous pouvez le voir sur ce magnifique dessin :
                     <br />

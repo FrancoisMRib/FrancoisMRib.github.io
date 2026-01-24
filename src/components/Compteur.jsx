@@ -9,9 +9,14 @@ export function Compteur() {
 
   return (
     <>
-      <div>
+    <div>
+        <h2>Bonjour ! Voici la page qui vous permettra de découvrir mes différents projets :</h2>
+    </div>
+      {/* <div>
         <Header/>
         <br />
+
+
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -26,12 +31,12 @@ export function Compteur() {
         </button>
         {/* <p>
           Edit <code>src/App.jsx</code> and save to test HMR
-        </p> */}
+        </p>
       </div>
       <p className="read-the-docs">
-        {/* Click on the Vite and React logos to learn more about the software used as a base for this projet */}
+        {/* Click on the Vite and React logos to learn more about the software used as a base for this projet
         Cliquez sur les logos de Vite et de React en découvrez-en plus sur les logiciels utilisés comme base pour ce projet
-      </p>
+      </p> */}
     </>
   )
 }

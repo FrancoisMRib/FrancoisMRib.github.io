@@ -1,6 +1,6 @@
 import { Header } from "./Header"
 import Seriousface from '/src/assets/Photo CV round.jpg';
-import Curriculum from '/src/assets/CV.jpg';
+import Curriculum from '/src/assets/CV_18-1-2026.png';
 import './Accueil.css';
 
 export function Accueil() {

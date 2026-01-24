@@ -13,7 +13,7 @@ export function Header() {
                     <a href="/contact">Contact</a> */}
                   <Link to={`/curtain`} className="écrits">Accueil</Link>
                   <Link to={`/`} className="écrits">Revenir à la page d'entrée</Link>
-                  <Link to={`/compteur`} className="écrits">Plus sur React et Vite</Link>
+                  <Link to={`/compteur`} className="écrits">Mes Projets</Link>
                   {/* <Link to={`/curtain`} className="écrits">Restez sur l'accueil</Link> */}
                   <Link to={`/life`} className="écrits">Ma Vie</Link>
               
