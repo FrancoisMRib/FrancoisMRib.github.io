@@ -40,3 +40,19 @@
     font-size: 100%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.total {
+    /* 1. Prend toute la largeur */
+    width: 100%;
+    
+    /* 2. Définit la hauteur visible (la "coupe") */
+    /* Ici, 25vh signifie 25% de la hauteur de l'écran. 
+       On peut aussi mettre une valeur fixe comme 300px. */
+    height: 25vh; 
+
+    /* 3. La magie pour ne pas déformer l'image */
+    object-fit: cover;
+    
+    /* 4. Indique quelle partie garder */
+    object-position: top; /* Garde le haut (1er quart), coupe le bas */
+}

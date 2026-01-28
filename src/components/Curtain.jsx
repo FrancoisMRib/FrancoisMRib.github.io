@@ -43,10 +43,12 @@ export function Curtain() {
         zIndex: 20, // Niveau supérieur pour qu'il apparaisse devant les rideaux
       }}
     >
+      
+      {/* Pour ceux qui ont la flemme d'ouvrir le rideau, il y a un bouton plus simple
       <div className='categy'>
         <Link to="/curtain" className="categy">Accéder au CV</Link>
-      </div>
-    </div>
+      </div>*/}
+    </div> 
       {/* Page d'accueil */}
 
       <div style={{ position: 'absolute', top: 0, left: 0, right: 150, bottom: 0 }}>
@@ -72,9 +74,10 @@ export function Curtain() {
             <button className='categ'>Mes formations</button>
             <button className='categ'>Mes projets</button>
             <button className='categ'>Ma vie</button> */}
-            <Link to={`/curtain`} className="categ">Accueil</Link>
-            <Link to={`/compteur`} className="categ">Mes dessins</Link>
+            <Link to={`/curtain`} className="categ">Mon CV</Link>
+            {/* <Link to={`/compteur`} className="categ">Mes dessins</Link> */}
             <Link to={`/compteur`} className="categ">Mes projets</Link>
+            {/* <Link to={`/curtain`} className="categ">Accueil</Link> */}
             <Link to={`/life`} className="categ">Ma vie</Link>
 
         </div>

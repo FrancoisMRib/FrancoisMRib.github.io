@@ -1,4 +1,11 @@
 .cev {
+    /* 1. Comportement pour le centrage */
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+
+    /* 2. Gestion de la taille */
     height: auto;
-    width: 100%;
+    max-width: 100%; /* Sécurité pour les petits écrans */
+    /* width: 100%;  ça c'était l'ancienne version, pour que ça prenne tte la place */
 }
