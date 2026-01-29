@@ -36,7 +36,7 @@ export function App() {
     // <--- 3. Bloc de code pour la balkise
     useEffect(() => {
         // On donne l'ID Google Analytics réel
-        ReactGA.initialize("G-RMJX6501ZZ"); 
+        ReactGA.initialize("G-8YCV1Q1VHQ"); 
         
         // Optionnel : Envoyer un événement "pageview" initial
         ReactGA.send({ hitType: "pageview", page: window.location.pathname });
