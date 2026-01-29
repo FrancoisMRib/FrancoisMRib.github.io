@@ -11,7 +11,7 @@ export function Vie() {
                 <h2 className="title">Bienvenue !!</h2>
                 {/* <h2 className="warning">! ACTUELLEMENT EN TRAVAUX ! <br /> LE TEXTE DE CETTE PAGE SERA MODIFIE DE MÊME QUE LES IMAGES QUI SERONT RAJOUTEES</h2> */}
                 <p>Titulaire d'un diplôme de concepteur-développeur d'applications, et également issu d'une formation littéraire en histoire moderne et contemporaine, je possède de nombreuses compétences dans de nombreux domaines, comme je vous laisse le plaisir de le découvrir dans le site ci-dessous</p>
-                <p>Vous y trouverez aussi de nombreuses informations sur moi, sur mes centres d'intérêts divers et variés et même quelques jeux si vous vous ennuyez !</p>
+                <p>Vous y trouverez aussi de nombreuses informations sur moi, sur mes centres d'intérêts divers et variés et même, à venir, quelques jeux si vous vous ennuyez !</p>
                 <p>Bref, un portfolio à mon image, que j'espère vous prendrez un grand plaisir à parcourir !!</p>
                 <h2 className="title">Mes formations</h2>
                 <h3 className="title">Concepteur-développeur d'applications</h3>
